@@ -1,7 +1,7 @@
 {
   "name": "EventFeedSample",
   "version": "0.0.0",
-  "description": "Sample project using Node, Express, Jade, Angular and MongoDB",
+  "description": "Sample project to present a Domain Event Feed using ATOM over REST",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
