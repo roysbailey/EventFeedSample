@@ -20,7 +20,7 @@ app.get('*', function(req, res){
     res.render('index');
 });
 
-jobsData.connectDb('mongodb://dev1:May2015May@ds031882.mongolab.com:31882/contractfeed')
+jobsData.connectDb(process.env.MongoDbConnection)
     .then(function(){
         console.log('Connected to MongoDB ok');
         jobsData.seedContracts();
